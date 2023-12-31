@@ -11,7 +11,8 @@
 // @noframes      true
 // @grant         unsafeWindow
 // @require            https://openuserjs.org/src/libs/sizzle/GM_config.js
-// @require       https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
+// @require     https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
+// @require https://gist.github.com/Schymerau/ce30d79f767ee53c5f0d32ae2f75cbb4.js
 // @grant              GM_getValue
 // @grant              GM_setValue
 // @grant              GM.getValue
