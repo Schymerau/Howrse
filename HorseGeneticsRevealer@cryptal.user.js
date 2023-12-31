@@ -1,17 +1,22 @@
 // ==UserScript==
-// @name          Horse Genetics Revealer
-// @namespace     cryptal
+// @name          Horwse Tweaks
+// @namespace     schymerau
 // @license       MIT
-// @description   For Howrse: Reveals the genetic percentages of a horse
-// @author        CryptalEquine
+// @description   For Howrse
+// @author        Schymerau
 // @include       */elevage/chevaux/cheval?id=*
 // @include       */elevage/fiche/?id=*
 // @version       1.2
 // @run-at        document-start
 // @noframes      true
 // @grant         unsafeWindow
-// @grant         GM_log
+// @require            https://openuserjs.org/src/libs/sizzle/GM_config.js
 // @require       https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
+// @grant              GM_getValue
+// @grant              GM_setValue
+// @grant              GM.getValue
+// @grant              GM.setValue
+// @grant         GM_log
 // @require       https://gist.githubusercontent.com/BrockA/2625891/raw/9c97aa67ff9c5d56be34a55ad6c18a314e5eb548/waitForKeyElements.js
 // @updateURL     https://openuserjs.org/meta/CryptalEquine/Horse_Genetics_Revealer.meta.js
 // ==/UserScript==
