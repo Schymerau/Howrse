@@ -9,18 +9,28 @@
 // @version       1.2
 // @run-at        document-start
 // @noframes      true
-// @grant         unsafeWindow
+// @resource	   IMPORTED_CSS https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
 // @require       https://openuserjs.org/src/libs/sizzle/GM_config.js
-// @require    	https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
-// @require 		https://gist.github.com/Schymerau/ce30d79f767ee53c5f0d32ae2f75cbb4.js
+// @require       https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
+// @require       https://gist.github.com/Schymerau/ce30d79f767ee53c5f0d32ae2f75cbb4.js
+// @require       https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js
+// @require       https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.mitrue
+// @require       https://gist.githubusercontent.com/BrockA/2625891/raw/9c97aa67ff9c5d56be34a55ad6c18a314e5eb548/waitForKeyElements.js
+// @grant         unsafeWindow
 // @grant         GM_getValue
 // @grant         GM_setValue
 // @grant         GM.getValue
 // @grant         GM.setValue
 // @grant         GM_log
-// @require       https://gist.githubusercontent.com/BrockA/2625891/raw/9c97aa67ff9c5d56be34a55ad6c18a314e5eb548/waitForKeyElements.js
-// @updateURL     https://openuserjs.org/meta/CryptalEquine/Horse_Genetics_Revealer.meta.js
-// ==/UserScript==
+// @grant         GM_getResourceText
+// @grant         GM_addStyle
+// @updateURL
+/// ==/UserScript==
+
+(function() {
+    'use strict';
+    const my_css = GM_getResourceText("IMPORTED_CSS");
+    GM_addStyle();
 
 waitForKeyElements( "#genetic-body-content", function( e )
 {
