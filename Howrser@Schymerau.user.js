@@ -9,7 +9,7 @@
 // @version       1.2
 // @run-at        document-start
 // @noframes      true
-// @resource	   IMPORTED_CSS https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
+// @resource	  IMPORTED_CSS https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
 // @require       https://openuserjs.org/src/libs/sizzle/GM_config.js
 // @require       https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
 // @require       https://gist.github.com/Schymerau/ce30d79f767ee53c5f0d32ae2f75cbb4.js
